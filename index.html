@@ -18,7 +18,7 @@
             </button>
         </div>
 
-        <form action="" id="form">
+        <form action="https://api.staticforms.xyz/submit" method="post">
             <div id="input_container">
                 <div class="input-box">
                     <label 
@@ -52,8 +52,7 @@
                             name="fleet"
                             id="fleet"
                             class="form-control"
-                            placeholder="Frota"
-                        >
+                            placeholder="Frota" required>
                     </div>
                 </div>
 
@@ -103,8 +102,7 @@
                             type="time"
                             name="end"
                             id="end"
-                            class="form-control"
-                        >
+                            class="form-control" required>
                     </div>
                 </div>
 
@@ -138,8 +136,7 @@
                             name="trip"
                             id="trip"
                             class="form-control"
-                            placeholder="Viagem"
-                        >
+                            placeholder="Viagem" required>
                     </div>
                 </div>
 
@@ -156,8 +153,7 @@
                             name="origin"
                             id="origin"
                             class="form-control"
-                            placeholder="Origem"
-                        >
+                            placeholder="Origem" required>
                     </div>
                 </div>
 
@@ -174,8 +170,7 @@
                             name="destination"
                             id="destination"
                             class="form-control"
-                            placeholder="Destino"
-                        >
+                            placeholder="Destino" required>
                     </div>
                 </div>
 
@@ -192,8 +187,7 @@
                             name="overflow_time"
                             id="overflow_time"
                             class="form-control"
-                            placeholder="Tempo de estouro"
-                        >
+                            placeholder="Tempo de Estouro" required>
                     </div>
                 </div>
 
@@ -210,8 +204,7 @@
                             name="reason"
                             id="reason"
                             class="form-control"
-                            placeholder="Motivo"
-                        >
+                            placeholder="Motivo" required>
                     </div>
                 </div>
             </div>
@@ -228,8 +221,7 @@
                         name="reason"
                         id="reason"
                         class="form-control"
-                        placeholder="Motivo"
-                    >
+                        placeholder="Autorizado por" required>
                 </div>
             </div>
         </div>
@@ -238,6 +230,8 @@
                 <i class="fa-solid fa-check"></i>
                 Enviar
             </button>
+            <input type="hidden" name="accessKey" value="9bbc75ae-10b5-4995-ac71-3a398a4234f7">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Obrigado.html">
         </form>
     </main>
 
