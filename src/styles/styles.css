@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f99595;
+
+
+
+}
+
+.btn-default {
+
+    background-color: #f99595; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    gap: 8px;
+    height: fit-content;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    transition: background-color 0.5s ease;
+    
+
+}  
+
+.btn-default:hover {
+    background-color: #ff0000;
+}
+
+#form_container {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   height: 100%;
+   background-color: #fff;
+   padding:20px;
+   border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#form_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+#form_title {
+    font-weight: 500;
+    color: #272727;
+    position: relative;
+}
+
+
+#form_titke::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: #272727;
+    left: 0;
+    bottom: 0;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+}
+
+input_container {
+    font-size: 12px;
+    gap: 24px;
+
+}
+
+.form-label {
+    font-size: 12px;
+    color: #272727;
+    font-weight: 500;
+}
+
+ .input-field {
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px -3px rgba(0,0,0,0.1);
+ }
+
+ .form-control {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    color: #272727;
+    font-weight: 500;
+    background-color: #ffff;
+ }
+
+ .form-control:focus {
+    outline: none;
+ }
+
+ .input-box .input-field:focus-within {
+    outline: 2px solid #ff0000;
+ }
+
+    .input-box .input-field:focus-within {
+       outline: 2px solid color: #ff0000;
+    }
+
+
+    .radio-container {
+        grid-column: span 2;
+    }
+    
+    #gender_inputs {
+        display: flex;
+        gap:20px;
+    }
+    .radio-box {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+  .from-control[type="radio"] {
+      accent-color: #ff0000;
+  }
+
+  @media screen and (min-width: 768px) {
+      #form_container {
+          width: 50%;
+          min-height: 100vh;
+          padding: 40px;
+      
+    }
+      #input_container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      
+  }
+}
+
+ 

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <title>Estouro de Jornada</title>
+</head>
+<body>
+    <main id="form_container">
+        <div id="form_header">
+            <h1 id="form_title">
+                Estouro de Jornada
+            </h1>
+            <button class="btn-default">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </button>
+        </div>
+
+        <form action="" id="form">
+            <div id="input_container">
+                <div class="input-box">
+                    <label 
+                        for="name" 
+                        class="form-label"
+                    >
+                        Nome
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                            placeholder="Fulano"
+                        >
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="fleet" 
+                        class="form-label"
+                    >
+                        Frota
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="fleet"
+                            id="fleet"
+                            class="form-control"
+                            placeholder="Frota"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="day" 
+                        class="form-label"
+                    >
+                        Dia
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="date"
+                            name="day"
+                            id="day"
+                            class="form-control"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="start" 
+                        class="form-label"
+                    >
+                        Início
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="time"
+                            name="start"
+                            id="start"
+                            class="form-control"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="end" 
+                        class="form-label"
+                    >
+                        Fim
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="time"
+                            name="end"
+                            id="end"
+                            class="form-control"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="contact_time" 
+                        class="form-label"
+                    >
+                        Hora do Contato
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="time"
+                            name="contact_time"
+                            id="contact_time"
+                            class="form-control"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="trip" 
+                        class="form-label"
+                    >
+                        Viagem
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="trip"
+                            id="trip"
+                            class="form-control"
+                            placeholder="Viagem"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="origin" 
+                        class="form-label"
+                    >
+                        Origem
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="origin"
+                            id="origin"
+                            class="form-control"
+                            placeholder="Origem"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="destination" 
+                        class="form-label"
+                    >
+                        Destino
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="destination"
+                            id="destination"
+                            class="form-control"
+                            placeholder="Destino"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="overflow_time" 
+                        class="form-label"
+                    >
+                        Tempo de Estouro
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="overflow_time"
+                            id="overflow_time"
+                            class="form-control"
+                            placeholder="Tempo de estouro"
+                        >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label 
+                        for="reason" 
+                        class="form-label"
+                    >
+                        Motivo
+                    </label>
+                    <div class="input-field">
+                        <input 
+                            type="text"
+                            name="reason"
+                            id="reason"
+                            class="form-control"
+                            placeholder="Motivo"
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <label 
+                    for="reason" 
+                    class="form-label"
+                >
+                    Autorizado por
+                </label>
+                <div class="input-field">
+                    <input 
+                        type="text"
+                        name="reason"
+                        id="reason"
+                        class="form-control"
+                        placeholder="Motivo"
+                    >
+                </div>
+            </div>
+        </div>
+
+            <button type="submit" class="btn-default">
+                <i class="fa-solid fa-check"></i>
+                Enviar
+            </button>
+        </form>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
